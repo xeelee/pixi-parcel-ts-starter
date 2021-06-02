@@ -1,0 +1,32 @@
+{
+  "name": "pixi-parcel-ts-starter",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "Titil",
+  "license": "MIT",
+  "dependencies": {
+    "pixi.js": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "canvas": "^2.7.0",
+    "jest-webgl-canvas-mock": "^0.2.3",
+    "parcel": "^2.0.0-nightly.643",
+    "parcel-reporter-static-files-copy": "^1.2.2",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "staticFiles": {
+    "staticPath": "assets",
+    "staticOutPath": "assets"
+  },
+  "sourceMap": {
+    "inline": true,
+    "inlineSource": true
+  }
+}
